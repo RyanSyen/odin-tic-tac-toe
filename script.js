@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
+    console.log('game start')
     const tiles = Array.from(document.querySelectorAll('.tile'));
     const playerDisplay = document.querySelector('.display-player');
     const resetButton = document.querySelector('#reset');
